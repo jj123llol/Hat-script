@@ -8,6 +8,11 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "Hitler"
+})
+
+
 Tab:AddButton({
 	Name = "Fe hitler (internation fed Brazil)",
 	Callback = function()
@@ -84,4 +89,121 @@ AO.Responsiveness = 10000000000000
 end
 align(Hats.xd.Handle, Character["Left Arm"])
   	end    
+})
+
+
+Tab:AddBind({
+	Name = "Hide block",
+	Default = Enum.KeyCode.E,
+	Hold = false,
+	Callback = function()
+	    
+	    local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+	    local Hats = {
+    xd = Character:WaitForChild("International Fedora"), -- the hat/body limb name
+
+}
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(-10,0,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(0,0,0)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait(1)
+align(Hats.xd.Handle, Character["Left Arm"])
+wait(1)
+align(Hats.xd.Handle, Character["Left Arm"])
+
+	end    
+})
+
+Tab:AddBind({
+	Name = "show block (if glitch press again)",
+	Default = Enum.KeyCode.R,
+	Hold = false,
+	Callback = function()
+	    
+	    local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+	    local Hats = {
+    xd = Character:WaitForChild("International Fedora"), -- the hat/body limb name
+
+}
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(-0.2,1,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(0,0,0)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait(1)
+align(Hats.xd.Handle, Character["Left Arm"])
+wait(1)
+align(Hats.xd.Handle, Character["Left Arm"])
+wait(1)
+align(Hats.xd.Handle, Character["Left Arm"])
+
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "More soon"
 })
