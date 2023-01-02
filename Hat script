@@ -205,5 +205,139 @@ align(Hats.xd.Handle, Character["Left Arm"])
 })
 
 local Section = Tab:AddSection({
-	Name = "More soon"
+	Name = "pp"
+})
+
+Tab:AddButton({
+	Name = "pp",
+	Callback = function()
+      		 --net bypass
+	    loadstring(game:HttpGet(('https://pastebin.com/raw/9y62Q1Pz'),true))()
+	    --actual script
+      		local Plr = game:GetService("Players").LocalPlayer -- you
+local Player = game:GetService("Players").LocalPlayer-- you
+local Character = Player.Character-- your character
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0.1,-1.1,-1.5)--position
+att1.Rotation = Vector3.new(90, 0, 0)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+Character["Left Arm"]:BreakJoints()--breaks the joints so you can customize its position
+align(Character["Left Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+
+wait()
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(1.1,-0,-1)--position
+att1.Rotation = Vector3.new(7, 100, 40)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+Character["Right Arm"]:BreakJoints()
+align(Character["Right Arm"], Character["Torso"])
+  	end    
+})
+
+Tab:AddBind({
+	Name = "jerk off -dont spam",
+	Default = Enum.KeyCode.T,
+	Hold = false,
+	Callback = function()
+	    
+	local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character	
+
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(1.1,-0,-1.5)--position
+att1.Rotation = Vector3.new(7, 100, 40)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Character["Right Arm"], Character["Torso"])
+wait(0.5)
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(1.1,-0,-1)--position
+att1.Rotation = Vector3.new(7, 100, 40)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Character["Right Arm"], Character["Torso"])
+	end    
 })
