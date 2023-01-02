@@ -98,7 +98,7 @@ align(Hats.xd.Handle, Character["Left Arm"])
 
 Tab:AddBind({
 	Name = "Hide block",
-	Default = Enum.KeyCode.E,
+	Default = Enum.KeyCode.F1,
 	Hold = false,
 	Callback = function()
 	    
@@ -153,7 +153,7 @@ align(Hats.xd.Handle, Character["Left Arm"])
 
 Tab:AddBind({
 	Name = "show block (if glitch press again)",
-	Default = Enum.KeyCode.R,
+	Default = Enum.KeyCode.F2,
 	Hold = false,
 	Callback = function()
 	    
@@ -284,7 +284,7 @@ align(Character["Right Arm"], Character["Torso"])
 
 Tab:AddBind({
 	Name = "jerk off -dont spam",
-	Default = Enum.KeyCode.T,
+	Default = Enum.KeyCode.F4,
 	Hold = false,
 	Callback = function()
 	    
@@ -444,7 +444,7 @@ align(Hats.xd.Handle, Character["Left Arm"])
 
 Tab:AddBind({
 	Name = "Hide glow",
-	Default = Enum.KeyCode.G,
+	Default = Enum.KeyCode.F6,
 	Hold = false,
 	Callback = function()
 	    
@@ -499,7 +499,7 @@ align(Hats.xd.Handle, Character["Left Arm"])
 
 Tab:AddBind({
 	Name = "Glow (if glitch press again)",
-	Default = Enum.KeyCode.H,
+	Default = Enum.KeyCode.F7,
 	Hold = false,
 	Callback = function()
 	    
@@ -651,7 +651,7 @@ align(Hats.xd.Handle, Character["Left Arm"])
 
 Tab:AddBind({
 	Name = "Hide glow",
-	Default = Enum.KeyCode.J,
+	Default = Enum.KeyCode.LeftBracket,
 	Hold = false,
 	Callback = function()
 	    
@@ -706,7 +706,7 @@ align(Hats.xd.Handle, Character["Left Arm"])
 
 Tab:AddBind({
 	Name = "Glow (if glitch press again)",
-	Default = Enum.KeyCode.K,
+	Default = Enum.KeyCode.RightBracket,
 	Hold = false,
 	Callback = function()
 	    
