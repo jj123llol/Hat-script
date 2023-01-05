@@ -554,6 +554,13 @@ align(Hats.xd.Handle, Character["Left Arm"])
 	end    
 })
 
+
+
+local Tab = Window:MakeTab({
+	Name = "paid",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 local Section = Tab:AddSection({
 	Name = "better Glowing arm"
 })
@@ -751,6 +758,12 @@ wait()
 align(Hats.xd.Handle, Character["Left Arm"])
 wait()
 align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
+wait()
+align(Hats.xd.Handle, Character["Left Arm"])
 wait(1)
 align(Hats.xd.Handle, Character["Left Arm"])
 wait(1)
@@ -759,4 +772,539 @@ wait(1)
 align(Hats.xd.Handle, Character["Left Arm"])
 
 	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Fire and ice"
+})
+
+Tab:AddButton({
+	Name = "Fire and water",
+	Callback = function()
+      		--net bypass
+	    loadstring(game:HttpGet(('https://pastebin.com/raw/9y62Q1Pz'),true))()
+	    --actual script
+      		local Plr = game:GetService("Players").LocalPlayer -- you
+local Player = game:GetService("Players").LocalPlayer-- you
+local Character = Player.Character-- your character
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(-1.5,0,0)--position
+att1.Rotation = Vector3.new(0, 0, 0)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+
+
+
+local Hats = {
+    xd = Character:WaitForChild("RockAccessory"), -- the hat/body limb name
+
+}
+Hats.xd.Handle.AccessoryWeld:Remove()
+Hats.xd.Handle.SpecialMesh:Remove()
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0,0.8,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(10,50,10)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Left Arm"])
+
+
+
+wait()
+
+
+
+local Hats = {
+    xd = Character:WaitForChild("8BitController"), -- the hat/body limb name
+
+}
+Hats.xd.Handle.AccessoryWeld:Remove()
+Hats.xd.Handle.SpecialMesh:Remove()
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0,0.8,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(10,50,10)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Right Arm"])
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Spinning gun"
+})
+
+Tab:AddButton({
+	Name = "spinning gun",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/9y62Q1Pz'),true))()
+	
+	local Plr = game:GetService("Players").LocalPlayer -- you
+local Player = game:GetService("Players").LocalPlayer-- you
+local Character = Player.Character-- your character
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(-1.5,0.6,-1)--position
+att1.Rotation = Vector3.new(90, 0, 0)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+
+Character["Left Arm"]:BreakJoints()--breaks the joints so you can customize its position
+align(Character["Left Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+
+
+
+local Hats = {
+    xd = Character:WaitForChild("Sniper Fantasy  Black Red"), -- the hat/body limb name
+
+}
+Hats.xd.Handle.AccessoryWeld:Remove()
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0,-1,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(-10,50,-10)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Left Arm"])
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = " custom Spinning gun"
+})
+Tab:AddTextbox({
+	Name = "how fast should gun spin?(reset to change again)",
+	Default = "number",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+		wait()
+		      		loadstring(game:HttpGet(('https://pastebin.com/raw/9y62Q1Pz'),true))()
+	
+	local Plr = game:GetService("Players").LocalPlayer -- you
+local Player = game:GetService("Players").LocalPlayer-- you
+local Character = Player.Character-- your character
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(-1.5,0.6,-1)--position
+att1.Rotation = Vector3.new(90, 0, 0)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+
+Character["Left Arm"]:BreakJoints()--breaks the joints so you can customize its position
+align(Character["Left Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+
+
+
+local Hats = {
+    xd = Character:WaitForChild("Sniper Fantasy  Black Red"), -- the hat/body limb name
+
+}
+Hats.xd.Handle.AccessoryWeld:Remove()
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0,-1,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(-Value,25,-Value)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Left Arm"])
+	end	  
+})
+
+local Section = Tab:AddSection({
+	Name = "duel spining pistols"
+})
+
+
+Tab:AddButton({
+	Name = "duel spinning pistols",
+	Callback = function()
+      				      		loadstring(game:HttpGet(('https://pastebin.com/raw/9y62Q1Pz'),true))()
+	
+	local Plr = game:GetService("Players").LocalPlayer -- you
+local Player = game:GetService("Players").LocalPlayer-- you
+local Character = Player.Character-- your character
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(-1.5,0.6,-1)--position
+att1.Rotation = Vector3.new(90, 0, 0)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+
+Character["Left Arm"]:BreakJoints()--breaks the joints so you can customize its position
+align(Character["Left Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+
+
+
+local Hats = {
+    xd = Character:WaitForChild("VN9K [Backpack]"), -- the hat/body limb name
+
+}
+Hats.xd.Handle.AccessoryWeld:Remove()
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0,-1,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(-5,5,-10)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Left Arm"])
+
+
+--next gun
+
+
+
+
+
+
+
+
+	local Plr = game:GetService("Players").LocalPlayer -- you
+local Player = game:GetService("Players").LocalPlayer-- you
+local Character = Player.Character-- your character
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(1.5,0.6,-1)--position
+att1.Rotation = Vector3.new(90, 0, 0)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+
+Character["Right Arm"]:BreakJoints()--breaks the joints so you can customize its position
+align(Character["Right Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+
+
+
+local Hats = {
+    xd = Character:WaitForChild("VN9K [Pistol]"), -- the hat/body limb name
+
+}
+Hats.xd.Handle.AccessoryWeld:Remove()
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0,-1,0)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(-5,5,-10)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Right Arm"])
+  	end    
+})
+
+
+
+local Section = Tab:AddSection({
+	Name = "Wall"
+})
+
+Tab:AddButton({
+	Name = "Wall",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/9y62Q1Pz'),true))()
+	
+	
+		local Plr = game:GetService("Players").LocalPlayer -- you
+local Player = game:GetService("Players").LocalPlayer-- you
+local Character = Player.Character-- your character
+local function align(i,v) -- align function
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0)
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(1.5,0,0)--position
+att1.Rotation = Vector3.new(0, 180, 0)--rotation
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+
+Character["Right Arm"]:BreakJoints()--breaks the joints so you can customize its position
+align(Character["Right Arm"], Character["Torso"]) -- the left arm is the part you want to change position, the torso part is what you want the position to be aligned to
+local Plr = game:GetService("Players").LocalPlayer
+local Player = game:GetService("Players").LocalPlayer
+local Character = Player.Character
+
+
+
+
+local Hats = {
+    xd = Character:WaitForChild("SentinelScepter"), -- the hat/body limb name
+
+}
+Hats.xd.Handle.AccessoryWeld:Remove()
+
+Hats.xd.Handle.SpecialMesh:Remove()
+local function align(i,v)
+local att0 = Instance.new("Attachment", i)
+att0.Position = Vector3.new(0,0,0) 
+local att1 = Instance.new("Attachment", v)
+att1.Position = Vector3.new(0,-0.1,5)-- literally the same thing
+			game:GetService("RunService").Heartbeat:Connect(function()
+att1.Rotation = att1.Rotation + Vector3.new(0,0,0)--rotation
+end)
+local AP = Instance.new("AlignPosition", i)
+AP.Attachment0 = att0
+AP.Attachment1 = att1
+AP.RigidityEnabled = false
+AP.ReactionForceEnabled = false
+AP.ApplyAtCenterOfMass = true
+AP.MaxForce = 9999999
+AP.MaxVelocity = math.huge
+AP.Responsiveness = 1000000000000
+local AO = Instance.new("AlignOrientation", i)
+AO.Attachment0 = att0
+AO.Attachment1 = att1
+AO.ReactionTorqueEnabled = true
+AO.PrimaryAxisOnly = false
+AO.MaxTorque = 9999999
+AO.MaxAngularVelocity = math.huge
+AO.Responsiveness = 10000000000000
+end
+align(Hats.xd.Handle, Character["Right Arm"])
+  	end    
 })
